@@ -12,7 +12,8 @@ int main(void)
     std::cout << "Address held by the stringPTR : " << stringPTR << std::endl;
     std::cout << "Address held by the stringREF : " << &stringREF << std::endl;
 
-    std::cout << "\nValue held by the stringPTR : " << *stringPTR << std::endl;
+    std::cout << "\nValue of the string varible : " << str << std::endl;
+    std::cout << "Value held by the stringPTR : " << *stringPTR << std::endl;
     std::cout << "Value held by the stringREF : " << stringREF << std::endl;
 
     return 0;
